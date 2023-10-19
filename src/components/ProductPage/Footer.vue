@@ -1,13 +1,13 @@
 <template>
   <div class="footer-containter">
-    <div class="footer-item">
-      <address></address>
-    </div>
+    day la footer
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'Footer',
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss"></style>

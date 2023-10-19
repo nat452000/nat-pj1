@@ -1,18 +1,21 @@
-<script setup></script>
+<template>
+  <div>
+    <router-view></router-view>
+    <Footer />
+  </div>
+</template>
 
-<template></template>
+<script>
+import Footer from './components/ProductPage/Footer.vue';
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+export default {
+    setup() {
+        return {};
+    },
+    components: { Footer }
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+</script>
+
+<style lang="scss" scoped>
+
 </style>
