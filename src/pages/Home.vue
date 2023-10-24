@@ -1,19 +1,13 @@
 <template>
-  <div>
-    homepage
-  </div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  setup () {
-    
-
-    return {}
-  }
-}
+  setup() {
+    return {};
+  },
+};
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
