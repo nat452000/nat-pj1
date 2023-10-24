@@ -1,21 +1,24 @@
 <template>
   <div>
-    <router-view></router-view>
+    <Header />
+    <Body />
     <Footer />
   </div>
 </template>
 
 <script>
-import Footer from './components/ProductPage/Footer.vue';
+import Header from './layout/Header.vue';
+import Body from './layout/Body.vue';
+import Footer from './layout/Footer.vue';
 
 export default {
     setup() {
         return {};
     },
-    components: { Footer }
+    components: { Header, Body, Footer }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>
